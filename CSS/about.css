@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.402);
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about{
+    text-align: center;
+    background-color: black;
+}
+.heading{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+}
+.main-board{
+    display: flex;
+}
+.right{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-left: 3px solid black;
+}
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+.image{
+    height: 550px;
+    width: 470px;
+    object-fit: cover;
+    filter: drop-shadow(1px 15px 10px rgb(10, 10, 10));
+    transform: scaleX(-1);
+    /* box-shadow: 1px 1px 10px black; */
+}
+.bio{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
