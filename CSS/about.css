@@ -16,10 +16,10 @@ body{
     font-weight: bolder;
     color: white;
 }
-.main-board{
+.about-main-board{
     display: flex;
 }
-.right{
+.about-right{
     width: 60%;
     text-align: center;
     display: flex;
@@ -27,7 +27,7 @@ body{
     justify-items: center;
     border-left: 3px solid black;
 }
-.left{
+.about-left{
     width: 40%;
     display: flex;
     justify-content: flex-start;
