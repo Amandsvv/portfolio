@@ -32,7 +32,7 @@ body{
     display: flex;
     justify-content: flex-start;
 }
-.image{
+.image-2{
     height: 550px;
     width: 470px;
     object-fit: cover;
