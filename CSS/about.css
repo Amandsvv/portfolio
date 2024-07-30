@@ -40,7 +40,7 @@ body{
     transform: scaleX(-1);
     /* box-shadow: 1px 1px 10px black; */
 }
-.about.bio{
+.about .bio{
     width: 80%;
     margin: auto;
     font-size: 20px;
