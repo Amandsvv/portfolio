@@ -1,6 +1,7 @@
 body{
     background-color: rgb(220, 220, 220);
     font-family: Arial, Helvetica, sans-serif;
+    overflow:auto;
 }
 .body-main{
     height : auto;
