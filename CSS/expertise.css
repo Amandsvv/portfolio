@@ -3,9 +3,10 @@ body{
     padding: 0;
     background-color: rgba(1, 1, 1, 0.402);
     font-family: 'Courier New', Courier, monospace;
+    overflow-y: scroll;
 }
 
-.about{
+.board-- .about{
     text-align: center;
     background-color: black;
     width: 100vw;
@@ -13,22 +14,22 @@ body{
     margin-top: 0px;
     z-index: 99;
 }
-.heading{
+.board-- .heading{
     margin: 0;
     padding: 0;
     font-size: 80px;
     font-weight: bold;
     color: white;
 }
-.board{
+.board--{
     position: absolute;
 }
 
-.main-board1{
+.board-- .main-board1{
     display: flex;
     margin-top: 90px;
 }
-.right{
+.board-- .right{
     width: 60%;
     text-align: center;
     display: flex;
@@ -36,12 +37,12 @@ body{
     justify-items: center;
     border-left: 3px solid black;
 }
-.left{
+.board-- .left{
     width: 40%;
     display: flex;
     justify-content: flex-start;
 }
-.image{
+.board-- .image-ex{
     height: 550px;
     width: 470px;
     object-fit: cover;
@@ -49,18 +50,18 @@ body{
     transform: scaleX(-1);
     /* box-shadow: 1px 1px 10px black; */
 }
-.bio{
+.board-- .bio{
     width: 80%;
     margin: auto;
     font-size: 20px;
 }
-.main-board{
+.board-- .main-board{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
 }
-.list{
+.board-- .main-board .list{
     width: 220px;
     height: 300px;
     border: 1px solid black;
@@ -69,17 +70,17 @@ body{
 
     border-radius: 40px;
 }
-.list{
+.board-- .list{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.data{
+.board-- .data{
     margin-left:20px;
     margin-top: 30px;
     font-size: 18px;
 }
-.logo{
+.board-- .logo{
     height: 65px;
     width: auto;
     background: transparent;

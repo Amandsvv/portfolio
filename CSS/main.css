@@ -10,10 +10,10 @@ header{
     justify-content: space-between;
     background-color: black;
 }
-.channel{
+header .channel{
     display: flex;
 }
-.image{
+header .image{
     height:50px;
     width: 50px;
     object-fit: cover;
@@ -22,10 +22,10 @@ header{
     margin-right: 0px;
     border-radius: 30px;
 }
-.after-img{
+header .after-img{
     margin-left: 0px;
 }
-.name{
+header .name{
     font-size: 26px;
     color: white;
     margin-left: 10px;
@@ -33,16 +33,16 @@ header{
     margin-top: 2px;
     font-weight: bold;
 }
-.ku{
+header .ku{
     margin-top:0px ;
 }
-a {
+header a {
     all: unset; 
     display: inline; 
     color: inherit; 
     text-decoration: none;
   }  
-.list{
+header .list{
     height: 100%;
     width: 90px;
 
@@ -54,12 +54,12 @@ a {
     background-color: black;
     border: none;
 }
-.list:hover{
+header .list:hover{
     cursor: pointer;
     background-color: white;
     color: black;
 }
-.list:active{
+header .list:active{
     background-color: darkred;
     color: white;
 }
