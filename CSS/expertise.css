@@ -27,7 +27,7 @@ body{
 
 .board-- .main-board1{
     display: flex;
-    margin-top: 90px;
+    /* margin-top: 20px; */
 }
 .board-- .right{
     width: 60%;

@@ -43,10 +43,10 @@ header a {
     text-decoration: none;
   }  
 header .list{
-    height: 100%;
-    width: 90px;
+    /* height: 100%;
+    width: 90px; */
 
-    padding: 0;
+    padding: 21px ;
 
     font-family:'Courier New', Courier, monospace ;
     font-size: 18px;
@@ -63,6 +63,7 @@ header .list:active{
     background-color: darkred;
     color: white;
 }
+
 
 main{
     /* position: absolute;
